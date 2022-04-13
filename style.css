@@ -5,7 +5,7 @@ body{
 }
 
 /* FLEX */
-body,
+main,
 .card{
     display: flex;
     justify-content: space-evenly;
@@ -15,8 +15,8 @@ body,
 
 
 /* STYLE DARK MODE*/
-body{
-    height: 90vh;
+main{
+    height: 100vh;
     width: 100vw;
     background-image: url(/images/bg-dark.png);
     background-repeat: no-repeat;
@@ -67,6 +67,7 @@ body{
     transform: translate3d(100%, 0, 0);
 }
 
+/* STYLE LIGHT MODE  */
 
 
 /* SWITCH LIGHT & DARK MODE */
