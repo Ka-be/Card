@@ -36,7 +36,8 @@ main{
 .card_text{
     color: #ffffff;
     font-family: 'Akshar', sans-serif;
-    font-size: 5em;
+    font-size: 3em;
+    text-align: center;
 }
 
 /* BOUTON SWITCH */
