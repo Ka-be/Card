@@ -23,7 +23,7 @@ main,
     height: 100vh;
     width: 100vw;
     color: #ffffff;
-    background-image: url(/images/bg-dark.png);
+    background-image: url(/images/bg-dark.svg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -111,7 +111,7 @@ main,
 /* MAIN */
 .main_light{
     color: #18223c;
-    background-image: url(/images/bg-light.png);
+    background-image: url(/images/bg-light.svg);
     transition: all 300ms;
 }
 
