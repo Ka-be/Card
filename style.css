@@ -56,6 +56,10 @@ main,
     border-radius: 1em;
 }
 
+.switch_dark{
+    background: #e0ccad;
+    transition: all 300ms;
+}
 
 .switch div {
     height: 1em;
@@ -70,21 +74,15 @@ main,
     transform: translate3d(100%, 0, 0);
 }
 
+/* LIGHT MODE */
 
-
-
-/* STYLE LIGHT MODE  */
+/* MAIN */
 .main-light{
     color: #18223c;
     background-image: url(/images/bg-light.png);
 }
 
-/* SWITCH LIGHT & DARK MODE */
-
-.switch_dark{
-    background: #e0ccad;
-    transition: all 300ms;
-}
+/* SWITCH */
 
 .switch_light{
     background: #18223c;
