@@ -56,15 +56,23 @@ main,
 }
 
 .card_header>h2, h3{
-    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card_header>h2{
+    font-size: 1.2rem;
+}
+
+.card_header>h3{
+    font-size: 1rem;
 }
 
 .card_content{
     flex:4;
     width: 80%;
     font-size: 5em;
-    background: red;
-    background-image: url(/images/profile.jpeg);
+    background-image: url(/images/profile.webp);
+    background-size: cover;
     border-radius: 15%;
 }
 
