@@ -30,18 +30,32 @@ main,
 
 .card{
     height: 600px;
-    width: 500px;
+    width: 450px;
     background: hsla(0, 0%, 100%, 0.187);
     border-radius: 10%;
     backdrop-filter: blur(15px);
     box-shadow: hsla(0, 0%, 0%, 0.200) 10px 5px 20px;
+    font-family: 'Akshar', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    justify-content: space-around;
 }
 
-.card_text{
+.card_header{
+    line-height: 1em;
+}
+
+.card_content{
     
-    font-family: 'Akshar', sans-serif;
-    font-size: 3em;
-    text-align: center;
+}
+
+.card_content>img{
+    height: 150px;
+}
+
+
+.card_footer{
+    
 }
 
 .toggle{
