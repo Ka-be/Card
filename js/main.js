@@ -18,3 +18,6 @@ checkbox.addEventListener('change', (event) => { //Quand la checkbox change de s
     }
 })
 
+// Changement de photo au clic
+
+var changePicture 

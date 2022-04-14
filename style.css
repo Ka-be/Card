@@ -74,6 +74,7 @@ main,
     background-image: url(/images/profile.webp);
     background-size: cover;
     border-radius: 15%;
+    cursor: pointer;
 }
 
 .card_footer{
