@@ -15,7 +15,7 @@ main,
 
 
 /* STYLE DARK MODE*/
-main{
+.dark-mode{
     height: 100vh;
     width: 100vw;
     background-image: url(/images/bg-dark.png);
@@ -30,7 +30,7 @@ main{
     background: hsla(0, 0%, 100%, 0.187);
     border-radius: 10%;
     backdrop-filter: blur(15px);
-    box-shadow: hsla(0, 0%, 0%, 0.487) 10px 5px 20px;
+    box-shadow: hsla(0, 0%, 0%, 0.200) 10px 5px 20px;
 }
 
 .card_text{
