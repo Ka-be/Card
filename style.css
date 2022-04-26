@@ -71,7 +71,7 @@ main,
     flex:4;
     width: 80%;
     font-size: 5em;
-    background-image: url(/images/profile.webp);
+    background-image: url(/images/portrait.jpg);
     background-size: cover;
     border-radius: 15%;
     cursor: pointer;
