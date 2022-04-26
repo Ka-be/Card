@@ -96,7 +96,7 @@ main,
 
 .toggle>img{
     height: 1.5em;
-    filter: brightness(1),
+    filter: brightness(1),;
     transition: all 300ms;
 }
 
