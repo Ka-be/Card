@@ -16,12 +16,12 @@
 <body>
     <main class="main_dark" id="main">
         <div class="toggle">
-            <img src="/images/moon.svg" alt="Dark mode" id="indicator"/>
+            <img src="/images/moon.svg" alt="Dark mode" id="indicator-moon"/>
             <label id="label" class="switch switch_dark">
                 <input type="checkbox" id="checkbox"/>    
                 <div></div>
             </label>
-            <img src="/images/sun.svg" alt="Light mode" class="indicator"/>
+            <img src="/images/sun.svg" alt="Light mode" id="indicator-sun"/>
         </div>
 
 
@@ -34,10 +34,10 @@
             <div class="card_content" onclick="changePicture()">
                 
             </div>
-            <div class="card_footer">
-                <img src="/images/socials/instagram.svg" alt="Instagram"/>
-                <img src="/images/socials/github.svg" alt="Github"/>
-                <img src="/images/socials/linkedin.svg" alt="Linkedin"/>
+            <div class="card_footer" id="socials">
+                <img src="/images/socials/instagram.svg" alt="Instagram" class="socials"/>
+                <img src="/images/socials/github.svg" alt="Github" class="socials"/>
+                <img src="/images/socials/linkedin.svg" alt="Linkedin" class="socials"/>
             </div>
         </div>
     </main>

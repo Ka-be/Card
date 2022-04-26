@@ -81,9 +81,10 @@ main,
     width: 100%;
     flex: 1;
     flex-direction: row;
+    transition: all 300ms;
 }
 
-.card_footer>img{
+.socials{
     width: 2em;
 }
 
@@ -96,6 +97,7 @@ main,
 .toggle>img{
     height: 1.5em;
     filter: brightness(1),
+    transition: all 300ms;
 }
 
 /* BOUTON SWITCH */
@@ -136,6 +138,11 @@ main,
 .main_light{
     color: #18223c;
     background-image: url(/images/bg-light.svg);
+    transition: all 300ms;
+}
+
+.dark-element{
+    filter: brightness(0);
     transition: all 300ms;
 }
 
